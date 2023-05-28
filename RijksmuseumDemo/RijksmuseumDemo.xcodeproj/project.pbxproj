@@ -18,6 +18,9 @@
 		A31FC0952A23DE120072D39D /* LocaleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC0942A23DE120072D39D /* LocaleProvider.swift */; };
 		A31FC0972A23DE2C0072D39D /* CultureProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC0962A23DE2C0072D39D /* CultureProvider.swift */; };
 		A31FC0992A23DE590072D39D /* DefaultCultureProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC0982A23DE590072D39D /* DefaultCultureProviderTests.swift */; };
+		A31FC09C2A23E3FD0072D39D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC09B2A23E3FD0072D39D /* APIClient.swift */; };
+		A31FC09E2A23E4760072D39D /* URLComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC09D2A23E4760072D39D /* URLComponents.swift */; };
+		A31FC0A02A23E71E0072D39D /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC09F2A23E71E0072D39D /* URLRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		A31FC0942A23DE120072D39D /* LocaleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleProvider.swift; sourceTree = "<group>"; };
 		A31FC0962A23DE2C0072D39D /* CultureProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CultureProvider.swift; sourceTree = "<group>"; };
 		A31FC0982A23DE590072D39D /* DefaultCultureProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCultureProviderTests.swift; sourceTree = "<group>"; };
+		A31FC09B2A23E3FD0072D39D /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A31FC09D2A23E4760072D39D /* URLComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponents.swift; sourceTree = "<group>"; };
+		A31FC09F2A23E71E0072D39D /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,7 @@
 			children = (
 				A31FC0932A23DE000072D39D /* Helper */,
 				A31FC08C2A23DD2F0072D39D /* Endpoint */,
+				A31FC09B2A23E3FD0072D39D /* APIClient.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -129,6 +136,8 @@
 			children = (
 				A31FC0942A23DE120072D39D /* LocaleProvider.swift */,
 				A31FC0962A23DE2C0072D39D /* CultureProvider.swift */,
+				A31FC09D2A23E4760072D39D /* URLComponents.swift */,
+				A31FC09F2A23E71E0072D39D /* URLRequest.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -240,7 +249,10 @@
 				A31FC0902A23DD660072D39D /* CollectionEndpoint.swift in Sources */,
 				A31FC0922A23DD7C0072D39D /* ArtObjectDetailsEndpoint.swift in Sources */,
 				A31FC05E2A23DB020072D39D /* SceneDelegate.swift in Sources */,
+				A31FC0A02A23E71E0072D39D /* URLRequest.swift in Sources */,
+				A31FC09E2A23E4760072D39D /* URLComponents.swift in Sources */,
 				A31FC0972A23DE2C0072D39D /* CultureProvider.swift in Sources */,
+				A31FC09C2A23E3FD0072D39D /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
