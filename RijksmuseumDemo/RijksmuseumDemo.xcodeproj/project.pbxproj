@@ -36,6 +36,7 @@
 		A32848922A24E0950003CF3C /* ErrorToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848912A24E0950003CF3C /* ErrorToastView.swift */; };
 		A32848942A24E42F0003CF3C /* LoadingCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848932A24E42F0003CF3C /* LoadingCircleView.swift */; };
 		A32848962A24E5D40003CF3C /* TransientOverlayDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848952A24E5D40003CF3C /* TransientOverlayDisplayable.swift */; };
+		A32848982A24E80C0003CF3C /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848972A24E80C0003CF3C /* CollectionHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		A32848912A24E0950003CF3C /* ErrorToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorToastView.swift; sourceTree = "<group>"; };
 		A32848932A24E42F0003CF3C /* LoadingCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleView.swift; sourceTree = "<group>"; };
 		A32848952A24E5D40003CF3C /* TransientOverlayDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransientOverlayDisplayable.swift; sourceTree = "<group>"; };
+		A32848972A24E80C0003CF3C /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 				A32848912A24E0950003CF3C /* ErrorToastView.swift */,
 				A32848932A24E42F0003CF3C /* LoadingCircleView.swift */,
 				A32848952A24E5D40003CF3C /* TransientOverlayDisplayable.swift */,
+				A32848972A24E80C0003CF3C /* CollectionHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				A31FC09E2A23E4760072D39D /* URLComponents.swift in Sources */,
 				A31FC0972A23DE2C0072D39D /* CultureProvider.swift in Sources */,
 				A31FC09C2A23E3FD0072D39D /* APIClient.swift in Sources */,
+				A32848982A24E80C0003CF3C /* CollectionHeaderView.swift in Sources */,
 				A31FC0B02A23EB800072D39D /* Constants.swift in Sources */,
 				A31FC0BC2A24ACDC0072D39D /* ArtObjectsCollectionViewModel.swift in Sources */,
 			);
