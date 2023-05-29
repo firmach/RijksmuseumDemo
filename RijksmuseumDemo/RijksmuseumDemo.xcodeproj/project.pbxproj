@@ -33,6 +33,7 @@
 		A31FC0BA2A24AB9A0072D39D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A31FC0B92A24AB9A0072D39D /* Kingfisher */; };
 		A31FC0BC2A24ACDC0072D39D /* ArtObjectsCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC0BB2A24ACDC0072D39D /* ArtObjectsCollectionViewModel.swift */; };
 		A31FC0BE2A24AFB00072D39D /* ArtObjectsCollectionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC0BD2A24AFB00072D39D /* ArtObjectsCollectionViewModelTests.swift */; };
+		A32848922A24E0950003CF3C /* ErrorToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848912A24E0950003CF3C /* ErrorToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		A31FC0B62A24AB680072D39D /* ArtObjectsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectsCollectionViewController.swift; sourceTree = "<group>"; };
 		A31FC0BB2A24ACDC0072D39D /* ArtObjectsCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectsCollectionViewModel.swift; sourceTree = "<group>"; };
 		A31FC0BD2A24AFB00072D39D /* ArtObjectsCollectionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectsCollectionViewModelTests.swift; sourceTree = "<group>"; };
+		A32848912A24E0950003CF3C /* ErrorToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		A31FC05A2A23DB020072D39D /* RijksmuseumDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A32848902A24E0800003CF3C /* View */,
 				A31FC0B32A24AAF00072D39D /* User Flow */,
 				A31FC08B2A23DD290072D39D /* Network */,
 				A31FC05B2A23DB020072D39D /* AppDelegate.swift */,
@@ -215,6 +218,14 @@
 				A31FC0BB2A24ACDC0072D39D /* ArtObjectsCollectionViewModel.swift */,
 			);
 			path = "Art Objects Colletion";
+			sourceTree = "<group>";
+		};
+		A32848902A24E0800003CF3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A32848912A24E0950003CF3C /* ErrorToastView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +346,7 @@
 				A31FC0922A23DD7C0072D39D /* ArtObjectDetailsEndpoint.swift in Sources */,
 				A31FC0AC2A23EB000072D39D /* ArtObjectDetailResponse.swift in Sources */,
 				A31FC05E2A23DB020072D39D /* SceneDelegate.swift in Sources */,
+				A32848922A24E0950003CF3C /* ErrorToastView.swift in Sources */,
 				A31FC0A82A23EA6D0072D39D /* ArtObject.swift in Sources */,
 				A31FC0A02A23E71E0072D39D /* URLRequest.swift in Sources */,
 				A31FC0A32A23EA120072D39D /* ArtObjectsService.swift in Sources */,
