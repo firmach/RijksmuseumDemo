@@ -45,6 +45,7 @@
 		A32848A72A25102B0003CF3C /* ErrorModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848A62A25102B0003CF3C /* ErrorModalView.swift */; };
 		A32848AB2A2511B90003CF3C /* UIColor+HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848AA2A2511B90003CF3C /* UIColor+HEX.swift */; };
 		A32848AD2A252A740003CF3C /* HexToUIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848AC2A252A740003CF3C /* HexToUIColorTests.swift */; };
+		A32848AF2A253B6E0003CF3C /* DefaultAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848AE2A253B6E0003CF3C /* DefaultAPIClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 		A32848A62A25102B0003CF3C /* ErrorModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModalView.swift; sourceTree = "<group>"; };
 		A32848AA2A2511B90003CF3C /* UIColor+HEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HEX.swift"; sourceTree = "<group>"; };
 		A32848AC2A252A740003CF3C /* HexToUIColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexToUIColorTests.swift; sourceTree = "<group>"; };
+		A32848AE2A253B6E0003CF3C /* DefaultAPIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAPIClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 				A31FC0B12A23EEE80072D39D /* ArtObjectsServiceTests.swift */,
 				A31FC0BD2A24AFB00072D39D /* ArtObjectsCollectionViewModelTests.swift */,
 				A32848AC2A252A740003CF3C /* HexToUIColorTests.swift */,
+				A32848AE2A253B6E0003CF3C /* DefaultAPIClientTests.swift */,
 			);
 			path = RijksmuseumDemoTests;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				A31FC0B22A23EEE80072D39D /* ArtObjectsServiceTests.swift in Sources */,
 				A32848AD2A252A740003CF3C /* HexToUIColorTests.swift in Sources */,
 				A31FC0992A23DE590072D39D /* DefaultCultureProviderTests.swift in Sources */,
+				A32848AF2A253B6E0003CF3C /* DefaultAPIClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

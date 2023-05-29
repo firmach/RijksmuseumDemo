@@ -18,6 +18,12 @@ enum NetworkError: Error {
 
 }
 
+protocol URLSessionProtocol {
+    func data(for request: URLRequest) async throws -> (Data, URLResponse)
+}
+
+extension URLSession: URLSessionProtocol {}
+
 
 protocol APIClient {
 
@@ -31,13 +37,19 @@ protocol APIClient {
 
 struct DefaultAPIClient: APIClient {
 
+    let session: URLSessionProtocol
+
+    init(session: URLSessionProtocol = URLSession.shared) {
+        self.session = session
+    }
+
     func sendRequest<ResponseModel: Decodable>(
         _ endpoint: Endpoint,
         ofType: ResponseModel.Type
     ) async -> Result<ResponseModel, NetworkError> {
         do {
             let request = try URLRequest(endpoint: endpoint)
-            let (data, response) = try await URLSession.shared.data(for: request)
+            let (data, response) = try await session.data(for: request)
 
             guard let httpResponse = response as? HTTPURLResponse else {
                 throw NetworkError.noResponse
