@@ -19,4 +19,5 @@ enum APIConstants {
 
     static let apiKey = "0fiuZFh4"
 
+    static let collectionFirstPage = 1
 }

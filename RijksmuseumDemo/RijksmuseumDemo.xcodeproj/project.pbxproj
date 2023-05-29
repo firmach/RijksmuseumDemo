@@ -29,7 +29,10 @@
 		A31FC0AE2A23EB140072D39D /* ArtObjectDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC0AD2A23EB140072D39D /* ArtObjectDetails.swift */; };
 		A31FC0B02A23EB800072D39D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC0AF2A23EB800072D39D /* Constants.swift */; };
 		A31FC0B22A23EEE80072D39D /* ArtObjectsServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC0B12A23EEE80072D39D /* ArtObjectsServiceTests.swift */; };
+		A31FC0B72A24AB680072D39D /* ArtObjectsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC0B62A24AB680072D39D /* ArtObjectsCollectionViewController.swift */; };
 		A31FC0BA2A24AB9A0072D39D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A31FC0B92A24AB9A0072D39D /* Kingfisher */; };
+		A31FC0BC2A24ACDC0072D39D /* ArtObjectsCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC0BB2A24ACDC0072D39D /* ArtObjectsCollectionViewModel.swift */; };
+		A31FC0BE2A24AFB00072D39D /* ArtObjectsCollectionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC0BD2A24AFB00072D39D /* ArtObjectsCollectionViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 		A31FC0AD2A23EB140072D39D /* ArtObjectDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectDetails.swift; sourceTree = "<group>"; };
 		A31FC0AF2A23EB800072D39D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A31FC0B12A23EEE80072D39D /* ArtObjectsServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectsServiceTests.swift; sourceTree = "<group>"; };
+		A31FC0B62A24AB680072D39D /* ArtObjectsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectsCollectionViewController.swift; sourceTree = "<group>"; };
+		A31FC0BB2A24ACDC0072D39D /* ArtObjectsCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectsCollectionViewModel.swift; sourceTree = "<group>"; };
+		A31FC0BD2A24AFB00072D39D /* ArtObjectsCollectionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectsCollectionViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,7 @@
 		A31FC05A2A23DB020072D39D /* RijksmuseumDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A31FC0B32A24AAF00072D39D /* User Flow */,
 				A31FC08B2A23DD290072D39D /* Network */,
 				A31FC05B2A23DB020072D39D /* AppDelegate.swift */,
 				A31FC05D2A23DB020072D39D /* SceneDelegate.swift */,
@@ -126,6 +133,7 @@
 			children = (
 				A31FC0982A23DE590072D39D /* DefaultCultureProviderTests.swift */,
 				A31FC0B12A23EEE80072D39D /* ArtObjectsServiceTests.swift */,
+				A31FC0BD2A24AFB00072D39D /* ArtObjectsCollectionViewModelTests.swift */,
 			);
 			path = RijksmuseumDemoTests;
 			sourceTree = "<group>";
@@ -182,6 +190,31 @@
 				A31FC0AD2A23EB140072D39D /* ArtObjectDetails.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A31FC0B32A24AAF00072D39D /* User Flow */ = {
+			isa = PBXGroup;
+			children = (
+				A31FC0B42A24AB0B0072D39D /* Main */,
+			);
+			path = "User Flow";
+			sourceTree = "<group>";
+		};
+		A31FC0B42A24AB0B0072D39D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A31FC0B52A24AB2F0072D39D /* Art Objects Colletion */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A31FC0B52A24AB2F0072D39D /* Art Objects Colletion */ = {
+			isa = PBXGroup;
+			children = (
+				A31FC0B62A24AB680072D39D /* ArtObjectsCollectionViewController.swift */,
+				A31FC0BB2A24ACDC0072D39D /* ArtObjectsCollectionViewModel.swift */,
+			);
+			path = "Art Objects Colletion";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +329,7 @@
 				A31FC0AA2A23EA960072D39D /* WebImage.swift in Sources */,
 				A31FC0602A23DB020072D39D /* ViewController.swift in Sources */,
 				A31FC05C2A23DB020072D39D /* AppDelegate.swift in Sources */,
+				A31FC0B72A24AB680072D39D /* ArtObjectsCollectionViewController.swift in Sources */,
 				A31FC08E2A23DD3E0072D39D /* Endpoint.swift in Sources */,
 				A31FC0902A23DD660072D39D /* CollectionEndpoint.swift in Sources */,
 				A31FC0922A23DD7C0072D39D /* ArtObjectDetailsEndpoint.swift in Sources */,
@@ -308,6 +342,7 @@
 				A31FC0972A23DE2C0072D39D /* CultureProvider.swift in Sources */,
 				A31FC09C2A23E3FD0072D39D /* APIClient.swift in Sources */,
 				A31FC0B02A23EB800072D39D /* Constants.swift in Sources */,
+				A31FC0BC2A24ACDC0072D39D /* ArtObjectsCollectionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A31FC0BE2A24AFB00072D39D /* ArtObjectsCollectionViewModelTests.swift in Sources */,
 				A31FC0B22A23EEE80072D39D /* ArtObjectsServiceTests.swift in Sources */,
 				A31FC0992A23DE590072D39D /* DefaultCultureProviderTests.swift in Sources */,
 			);
