@@ -37,6 +37,7 @@
 		A32848942A24E42F0003CF3C /* LoadingCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848932A24E42F0003CF3C /* LoadingCircleView.swift */; };
 		A32848962A24E5D40003CF3C /* TransientOverlayDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848952A24E5D40003CF3C /* TransientOverlayDisplayable.swift */; };
 		A32848982A24E80C0003CF3C /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848972A24E80C0003CF3C /* CollectionHeaderView.swift */; };
+		A328489A2A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848992A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		A32848932A24E42F0003CF3C /* LoadingCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleView.swift; sourceTree = "<group>"; };
 		A32848952A24E5D40003CF3C /* TransientOverlayDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransientOverlayDisplayable.swift; sourceTree = "<group>"; };
 		A32848972A24E80C0003CF3C /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		A32848992A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +235,7 @@
 				A32848932A24E42F0003CF3C /* LoadingCircleView.swift */,
 				A32848952A24E5D40003CF3C /* TransientOverlayDisplayable.swift */,
 				A32848972A24E80C0003CF3C /* CollectionHeaderView.swift */,
+				A32848992A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				A32848922A24E0950003CF3C /* ErrorToastView.swift in Sources */,
 				A31FC0A82A23EA6D0072D39D /* ArtObject.swift in Sources */,
 				A31FC0A02A23E71E0072D39D /* URLRequest.swift in Sources */,
+				A328489A2A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift in Sources */,
 				A31FC0A32A23EA120072D39D /* ArtObjectsService.swift in Sources */,
 				A31FC09E2A23E4760072D39D /* URLComponents.swift in Sources */,
 				A31FC0972A23DE2C0072D39D /* CultureProvider.swift in Sources */,

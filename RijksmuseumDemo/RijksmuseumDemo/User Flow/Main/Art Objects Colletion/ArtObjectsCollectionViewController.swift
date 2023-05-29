@@ -8,6 +8,11 @@
 import UIKit
 
 
+enum CollectionPreferredLayout {
+    case row, grid
+}
+
+
 @MainActor
 final class ArtObjectsCollectionViewController: UICollectionViewController {
 
