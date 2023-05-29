@@ -18,7 +18,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         self.window = UIWindow(windowScene: windowScene)
 
-        let navigationController = UINavigationController(rootViewController: ViewController())
+        let artObjectsCollectionViewModel = ArtObjectsCollectionViewModel(dependencies: DefaultArtObjectsViewModelDependencies())
+        let artObjectsCollectionViewController = ArtObjectsCollectionViewController(viewModel: artObjectsCollectionViewModel)
+        let navigationController = UINavigationController(rootViewController: artObjectsCollectionViewController)
         navigationController.navigationBar.prefersLargeTitles = true
 
         window?.rootViewController = navigationController
