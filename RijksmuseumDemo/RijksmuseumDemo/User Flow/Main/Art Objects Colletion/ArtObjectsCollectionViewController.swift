@@ -25,6 +25,7 @@ final class ArtObjectsCollectionViewController: UICollectionViewController, Tran
 
     // MARK: - Private properties
 
+    private weak var coordinator: MainCoordinator?
     private let viewModel: ArtObjectsCollectionViewModel
     private lazy var dataSource = makeDataSource()
     private var cancellables = Set<AnyCancellable>()
@@ -38,7 +39,8 @@ final class ArtObjectsCollectionViewController: UICollectionViewController, Tran
 
     // MARK: - Initialization
 
-    init(viewModel: ArtObjectsCollectionViewModel) {
+    init(coordinator: MainCoordinator, viewModel: ArtObjectsCollectionViewModel) {
+        self.coordinator = coordinator
         self.viewModel = viewModel
         super.init(collectionViewLayout: UICollectionViewLayout())
     }
@@ -79,7 +81,7 @@ final class ArtObjectsCollectionViewController: UICollectionViewController, Tran
     ) {
         let section = dataSource.snapshot().sectionIdentifiers[indexPath.section]
         let artObject = section.artObjects[indexPath.row]
-        // do something
+        coordinator?.detailArtObject(artObject: artObject)
     }
 
 }

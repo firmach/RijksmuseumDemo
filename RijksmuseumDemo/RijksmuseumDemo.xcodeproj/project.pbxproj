@@ -38,6 +38,8 @@
 		A32848962A24E5D40003CF3C /* TransientOverlayDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848952A24E5D40003CF3C /* TransientOverlayDisplayable.swift */; };
 		A32848982A24E80C0003CF3C /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848972A24E80C0003CF3C /* CollectionHeaderView.swift */; };
 		A328489A2A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848992A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift */; };
+		A328489C2A24FECA0003CF3C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A328489B2A24FECA0003CF3C /* Coordinator.swift */; };
+		A328489E2A24FEFA0003CF3C /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A328489D2A24FEFA0003CF3C /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,8 @@
 		A32848952A24E5D40003CF3C /* TransientOverlayDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransientOverlayDisplayable.swift; sourceTree = "<group>"; };
 		A32848972A24E80C0003CF3C /* CollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
 		A32848992A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		A328489B2A24FECA0003CF3C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A328489D2A24FEFA0003CF3C /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				A31FC0B42A24AB0B0072D39D /* Main */,
+				A328489B2A24FECA0003CF3C /* Coordinator.swift */,
 			);
 			path = "User Flow";
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				A31FC0B52A24AB2F0072D39D /* Art Objects Colletion */,
+				A328489D2A24FEFA0003CF3C /* MainCoordinator.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -348,6 +354,7 @@
 			files = (
 				A32848962A24E5D40003CF3C /* TransientOverlayDisplayable.swift in Sources */,
 				A31FC0952A23DE120072D39D /* LocaleProvider.swift in Sources */,
+				A328489C2A24FECA0003CF3C /* Coordinator.swift in Sources */,
 				A31FC0AE2A23EB140072D39D /* ArtObjectDetails.swift in Sources */,
 				A31FC0A62A23EA4C0072D39D /* CollectionResponse.swift in Sources */,
 				A31FC0AA2A23EA960072D39D /* WebImage.swift in Sources */,
@@ -370,6 +377,7 @@
 				A31FC09C2A23E3FD0072D39D /* APIClient.swift in Sources */,
 				A32848982A24E80C0003CF3C /* CollectionHeaderView.swift in Sources */,
 				A31FC0B02A23EB800072D39D /* Constants.swift in Sources */,
+				A328489E2A24FEFA0003CF3C /* MainCoordinator.swift in Sources */,
 				A31FC0BC2A24ACDC0072D39D /* ArtObjectsCollectionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
