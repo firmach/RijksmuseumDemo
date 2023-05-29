@@ -41,6 +41,10 @@
 		A328489C2A24FECA0003CF3C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A328489B2A24FECA0003CF3C /* Coordinator.swift */; };
 		A328489E2A24FEFA0003CF3C /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A328489D2A24FEFA0003CF3C /* MainCoordinator.swift */; };
 		A32848A12A25077F0003CF3C /* ArtObjectDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848A02A25077F0003CF3C /* ArtObjectDetailsViewModel.swift */; };
+		A32848A52A250D5E0003CF3C /* ArtObjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848A42A250D5E0003CF3C /* ArtObjectDetailsViewController.swift */; };
+		A32848A72A25102B0003CF3C /* ErrorModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848A62A25102B0003CF3C /* ErrorModalView.swift */; };
+		A32848AB2A2511B90003CF3C /* UIColor+HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848AA2A2511B90003CF3C /* UIColor+HEX.swift */; };
+		A32848AD2A252A740003CF3C /* HexToUIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848AC2A252A740003CF3C /* HexToUIColorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +94,10 @@
 		A328489B2A24FECA0003CF3C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		A328489D2A24FEFA0003CF3C /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		A32848A02A25077F0003CF3C /* ArtObjectDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectDetailsViewModel.swift; sourceTree = "<group>"; };
+		A32848A42A250D5E0003CF3C /* ArtObjectDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectDetailsViewController.swift; sourceTree = "<group>"; };
+		A32848A62A25102B0003CF3C /* ErrorModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModalView.swift; sourceTree = "<group>"; };
+		A32848AA2A2511B90003CF3C /* UIColor+HEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HEX.swift"; sourceTree = "<group>"; };
+		A32848AC2A252A740003CF3C /* HexToUIColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexToUIColorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +140,7 @@
 		A31FC05A2A23DB020072D39D /* RijksmuseumDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A32848A82A2511A20003CF3C /* Helper */,
 				A32848902A24E0800003CF3C /* View */,
 				A31FC0B32A24AAF00072D39D /* User Flow */,
 				A31FC08B2A23DD290072D39D /* Network */,
@@ -151,6 +160,7 @@
 				A31FC0982A23DE590072D39D /* DefaultCultureProviderTests.swift */,
 				A31FC0B12A23EEE80072D39D /* ArtObjectsServiceTests.swift */,
 				A31FC0BD2A24AFB00072D39D /* ArtObjectsCollectionViewModelTests.swift */,
+				A32848AC2A252A740003CF3C /* HexToUIColorTests.swift */,
 			);
 			path = RijksmuseumDemoTests;
 			sourceTree = "<group>";
@@ -245,6 +255,7 @@
 				A32848952A24E5D40003CF3C /* TransientOverlayDisplayable.swift */,
 				A32848972A24E80C0003CF3C /* CollectionHeaderView.swift */,
 				A32848992A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift */,
+				A32848A62A25102B0003CF3C /* ErrorModalView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,9 +263,26 @@
 		A328489F2A2507490003CF3C /* Art Object Details */ = {
 			isa = PBXGroup;
 			children = (
+				A32848A42A250D5E0003CF3C /* ArtObjectDetailsViewController.swift */,
 				A32848A02A25077F0003CF3C /* ArtObjectDetailsViewModel.swift */,
 			);
 			path = "Art Object Details";
+			sourceTree = "<group>";
+		};
+		A32848A82A2511A20003CF3C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A32848A92A2511A90003CF3C /* UIKit */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A32848A92A2511A90003CF3C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A32848AA2A2511B90003CF3C /* UIColor+HEX.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +400,7 @@
 				A31FC0602A23DB020072D39D /* ViewController.swift in Sources */,
 				A31FC05C2A23DB020072D39D /* AppDelegate.swift in Sources */,
 				A31FC0B72A24AB680072D39D /* ArtObjectsCollectionViewController.swift in Sources */,
+				A32848AB2A2511B90003CF3C /* UIColor+HEX.swift in Sources */,
 				A32848942A24E42F0003CF3C /* LoadingCircleView.swift in Sources */,
 				A31FC08E2A23DD3E0072D39D /* Endpoint.swift in Sources */,
 				A31FC0902A23DD660072D39D /* CollectionEndpoint.swift in Sources */,
@@ -380,6 +409,7 @@
 				A31FC05E2A23DB020072D39D /* SceneDelegate.swift in Sources */,
 				A32848922A24E0950003CF3C /* ErrorToastView.swift in Sources */,
 				A31FC0A82A23EA6D0072D39D /* ArtObject.swift in Sources */,
+				A32848A72A25102B0003CF3C /* ErrorModalView.swift in Sources */,
 				A31FC0A02A23E71E0072D39D /* URLRequest.swift in Sources */,
 				A328489A2A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift in Sources */,
 				A31FC0A32A23EA120072D39D /* ArtObjectsService.swift in Sources */,
@@ -389,6 +419,7 @@
 				A31FC09C2A23E3FD0072D39D /* APIClient.swift in Sources */,
 				A32848982A24E80C0003CF3C /* CollectionHeaderView.swift in Sources */,
 				A31FC0B02A23EB800072D39D /* Constants.swift in Sources */,
+				A32848A52A250D5E0003CF3C /* ArtObjectDetailsViewController.swift in Sources */,
 				A328489E2A24FEFA0003CF3C /* MainCoordinator.swift in Sources */,
 				A31FC0BC2A24ACDC0072D39D /* ArtObjectsCollectionViewModel.swift in Sources */,
 			);
@@ -400,6 +431,7 @@
 			files = (
 				A31FC0BE2A24AFB00072D39D /* ArtObjectsCollectionViewModelTests.swift in Sources */,
 				A31FC0B22A23EEE80072D39D /* ArtObjectsServiceTests.swift in Sources */,
+				A32848AD2A252A740003CF3C /* HexToUIColorTests.swift in Sources */,
 				A31FC0992A23DE590072D39D /* DefaultCultureProviderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

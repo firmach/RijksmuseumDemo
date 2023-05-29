@@ -29,8 +29,13 @@ final class MainCoordinator: Coordinator {
     }
 
     func detailArtObject(artObject: ArtObject) {
-        print(#function)
-        // do something
+        let artObjectsViewModelDependencies = DefaultArtObjectsViewModelDependencies()
+        let artObjectDetailsViewModel = ArtObjectDetailsViewModel(
+            objectNumber: artObject.objectNumber,
+            dependencies: artObjectsViewModelDependencies
+        )
+        let artObjectDetailsViewController = ArtObjectDetailsViewController(viewModel: artObjectDetailsViewModel)
+        navigationController.pushViewController(artObjectDetailsViewController, animated: true)
     }
 
 }
