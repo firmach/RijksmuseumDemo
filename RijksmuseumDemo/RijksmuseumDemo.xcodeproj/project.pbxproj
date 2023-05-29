@@ -40,6 +40,7 @@
 		A328489A2A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848992A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift */; };
 		A328489C2A24FECA0003CF3C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A328489B2A24FECA0003CF3C /* Coordinator.swift */; };
 		A328489E2A24FEFA0003CF3C /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A328489D2A24FEFA0003CF3C /* MainCoordinator.swift */; };
+		A32848A12A25077F0003CF3C /* ArtObjectDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32848A02A25077F0003CF3C /* ArtObjectDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		A32848992A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectCollectionViewCell.swift; sourceTree = "<group>"; };
 		A328489B2A24FECA0003CF3C /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		A328489D2A24FEFA0003CF3C /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		A32848A02A25077F0003CF3C /* ArtObjectDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtObjectDetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				A31FC0B52A24AB2F0072D39D /* Art Objects Colletion */,
+				A328489F2A2507490003CF3C /* Art Object Details */,
 				A328489D2A24FEFA0003CF3C /* MainCoordinator.swift */,
 			);
 			path = Main;
@@ -244,6 +247,14 @@
 				A32848992A24E95D0003CF3C /* ArtObjectCollectionViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A328489F2A2507490003CF3C /* Art Object Details */ = {
+			isa = PBXGroup;
+			children = (
+				A32848A02A25077F0003CF3C /* ArtObjectDetailsViewModel.swift */,
+			);
+			path = "Art Object Details";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,6 +385,7 @@
 				A31FC0A32A23EA120072D39D /* ArtObjectsService.swift in Sources */,
 				A31FC09E2A23E4760072D39D /* URLComponents.swift in Sources */,
 				A31FC0972A23DE2C0072D39D /* CultureProvider.swift in Sources */,
+				A32848A12A25077F0003CF3C /* ArtObjectDetailsViewModel.swift in Sources */,
 				A31FC09C2A23E3FD0072D39D /* APIClient.swift in Sources */,
 				A32848982A24E80C0003CF3C /* CollectionHeaderView.swift in Sources */,
 				A31FC0B02A23EB800072D39D /* Constants.swift in Sources */,
