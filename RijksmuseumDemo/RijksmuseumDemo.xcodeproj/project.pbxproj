@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A31FC05C2A23DB020072D39D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC05B2A23DB020072D39D /* AppDelegate.swift */; };
 		A31FC05E2A23DB020072D39D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC05D2A23DB020072D39D /* SceneDelegate.swift */; };
-		A31FC0602A23DB020072D39D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC05F2A23DB020072D39D /* ViewController.swift */; };
 		A31FC0652A23DB030072D39D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31FC0642A23DB030072D39D /* Assets.xcassets */; };
 		A31FC0682A23DB030072D39D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31FC0662A23DB030072D39D /* LaunchScreen.storyboard */; };
 		A31FC08E2A23DD3E0072D39D /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FC08D2A23DD3E0072D39D /* Endpoint.swift */; };
@@ -62,7 +61,6 @@
 		A31FC0582A23DB020072D39D /* RijksmuseumDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RijksmuseumDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31FC05B2A23DB020072D39D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A31FC05D2A23DB020072D39D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A31FC05F2A23DB020072D39D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A31FC0642A23DB030072D39D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A31FC0672A23DB030072D39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A31FC0692A23DB030072D39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 				A31FC08B2A23DD290072D39D /* Network */,
 				A31FC05B2A23DB020072D39D /* AppDelegate.swift */,
 				A31FC05D2A23DB020072D39D /* SceneDelegate.swift */,
-				A31FC05F2A23DB020072D39D /* ViewController.swift */,
 				A31FC0642A23DB030072D39D /* Assets.xcassets */,
 				A31FC0662A23DB030072D39D /* LaunchScreen.storyboard */,
 				A31FC0692A23DB030072D39D /* Info.plist */,
@@ -400,7 +397,6 @@
 				A31FC0AE2A23EB140072D39D /* ArtObjectDetails.swift in Sources */,
 				A31FC0A62A23EA4C0072D39D /* CollectionResponse.swift in Sources */,
 				A31FC0AA2A23EA960072D39D /* WebImage.swift in Sources */,
-				A31FC0602A23DB020072D39D /* ViewController.swift in Sources */,
 				A31FC05C2A23DB020072D39D /* AppDelegate.swift in Sources */,
 				A31FC0B72A24AB680072D39D /* ArtObjectsCollectionViewController.swift in Sources */,
 				A32848AB2A2511B90003CF3C /* UIColor+HEX.swift in Sources */,
